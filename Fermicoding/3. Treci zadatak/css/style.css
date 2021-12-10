@@ -1,0 +1,114 @@
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+input[type=submit]{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: .3s ease-in-out;
+    outline: none;
+    border: 1px solid black;
+}
+
+input[type=submit]:hover{
+    border: 1px solid rgb(0, 171, 252);
+    color: rgb(0, 171, 252);;
+}
+
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    padding-left: 5px;
+}
+
+input[type=text]:focus{
+    border: 1px solid rgb(0, 171, 252);
+}
+
+
+input[type=password]{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    padding-left: 5px;
+}
+input[type=password]:focus{
+    border: 1px solid rgb(0, 171, 252);
+}
+
+h1{
+    margin-bottom: 10px;
+}
+strong{
+
+    font-size: 28px;
+}
+.color-b{
+    color: rgb(0, 171, 252);
+}
+
+.temp{
+    font-size: 24px;
+    text-align: center;
+}
+
+.errorMsg{
+    margin-top: 10px;
+    font-size: 20px;
+    position: absolute;
+    bottom: -55px;
+    color: red;
+    text-align: center;
+
+}
+
+.logout{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: .3s ease-in-out;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logout:hover{
+    border: 1px solid red;
+    color: red;
+}
+
